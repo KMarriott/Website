@@ -41,7 +41,7 @@ class Monster extends Component {
     <div> Energy<br/>{monster.energy} </div>
     <div> Strength<br/>{monster.strength} </div>
     <div> Hunger<br/>{monster.hunger} </div>
-    <div> Hygine<br/>{monster.hygine} </div>
+    <div> Hygiene<br/>{monster.hygine} </div>
     </div>
     </div>
 
