@@ -75,7 +75,8 @@ class Home extends Component {
     if(this.state.egg === true){
       return egglist.map(function(egg){
         return  <div className="hvr-grow"> 
-        <div onClick={(e) => selectEgg(e, egg)}><img src={egg.image} /></div>
+        <div onClick={(e) => selectEgg(e, egg)}><img src={egg.image} />
+        </div>
         </div>
       })
     }
@@ -110,6 +111,8 @@ class Home extends Component {
     return (
       <div className="Eggs">
       {this.showHome()}
+      <br/>
+      {this.state.egg ? ("Pick an Egg!") : " "}
 
       </div>
       );

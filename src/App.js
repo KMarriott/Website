@@ -11,17 +11,6 @@ import monsterlist from './components/monsterlist';
 class App extends Component {
 	constructor(){
 		super();
-
-		
-
-		this.state = {
-			egg: true,
-			monster_id: null,
-			selectEgg: this.selectEgg,
-			monsterlist: monsterlist,
-			user_monsters: [],
-			currentCount: 0
-		};
 	}
 
 	onBackButtonEvent(e){
@@ -33,19 +22,14 @@ class App extends Component {
 
 	render() {
 
-
-
-
-
-
-
 		return (
+			<div className="app-container">
 			<div className="App">
 			<div className="Back" onClick={this.onBackButtonEvent}>{"<--"} Back </div>
-			Your Virtual Pet
-
+			<div className="Title">Your Virtual Pet</div>
 			<Home/>
 			</div>
+			</div>	
 			);
 	}
 }
