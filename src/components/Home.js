@@ -4,7 +4,7 @@ import './Home.css'
 
 import Monster from "./Monster"
 
-import monsterlist from './monsterlist';
+import monsterlist from './digimon';
 import egglist from './egglist';
 
 class Home extends Component {

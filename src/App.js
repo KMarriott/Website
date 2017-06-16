@@ -5,7 +5,7 @@ import Home from './components/Home';
 
 
 //This can be replaced with API once it
-import monsterlist from './components/monsterlist';
+import monsterlist from './components/digimon';
 
 
 class App extends Component {
